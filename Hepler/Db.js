@@ -1,6 +1,5 @@
-import mysql from 'mysql2';
-import '../Hepler/Db'
-import { DBHOST } from './const';
+import mysql from "mysql2";
+import { DBHOST,DBUSER,DBPASS,DBNAME } from './const.js';
 export default function ConnectDB() {
     
     const db = mysql.createConnection(
