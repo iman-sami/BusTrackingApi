@@ -2,5 +2,9 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 export const {
-PORT
+PORT,
+DBNAME,
+DBPASS,
+DBUSER,
+DBHOST
 } = process.env;
